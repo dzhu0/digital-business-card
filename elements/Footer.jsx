@@ -1,19 +1,23 @@
 import React from "react";
+import twitter from "../images/twitter.png";
+import facebook from "../images/facebook.png";
+import instagram from "../images/instagram.png";
+import github from "../images/github.png";
 
 export default function Footer() {
     return (
         <div className="Footer">
             <a href="#">
-                <img src="../images/twitter.png" />
+                <img src={twitter} />
             </a>
             <a href="#">
-                <img src="../images/facebook.png" />
+                <img src={facebook} />
             </a>
             <a href="#">
-                <img src="../images/instagram.png" />
+                <img src={instagram} />
             </a>
             <a href="#">
-                <img src="../images/github.png" />
+                <img src={github} />
             </a>
         </div>
     )
